@@ -1,5 +1,5 @@
 body {
-	background-color: rgba(220,220,220,1);
+	background-color: rgba(230,230,230,1);
 	color: purple;
 	background-image: url("https://66.media.tumblr.com/297b361ce92b9e2746a1763eb72c90d4/tumblr_oqwlha3EBS1vqiq7ro2_1280.png");
 	/* background-position: center; */
@@ -44,17 +44,14 @@ h1 {
 	right: 0px;
 }
 
-/* ul {
-	list-style-position: inside;
-	margin: 5px;
-	padding: 5px;
+.main {
+	max-height: 90%;
 }
 
 li {
-  background: #cce5ff;
-  padding: 0px 10px;
-	margin: 10px 0px;
-} */
+  margin: 0;
+  padding: 0;
+}
 
 a {
 	text-decoration: none;
