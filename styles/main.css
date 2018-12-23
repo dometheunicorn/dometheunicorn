@@ -1,0 +1,35 @@
+body {
+	background-color: rgba(220,220,220,1);
+	color: purple;
+	background-image: url("https://66.media.tumblr.com/297b361ce92b9e2746a1763eb72c90d4/tumblr_oqwlha3EBS1vqiq7ro2_1280.png");
+	/* background-position: center; */
+	background-blend-mode: overlay;
+	/* background-repeat: no-repeat; */
+	background-size: contain;
+  /* background-size: 100vw 100vh; */
+	background-attachment: fixed;
+	font-size: 200%;
+	animation: mainanim 50s linear infinite;
+}
+
+h1 {
+  color: purple;
+  text-align: center;
+}
+
+
+.credits {
+	font-size: 50%;
+	text-align: right;
+	position: absolute;
+  bottom: 2px;
+	right: 2px;
+}
+
+@keyframes mainanim {
+	from {background-position: 0vw 0vh}
+	to {background-position: 100vw 100vh}
+
+	/* from {background-color: rgba(240,240,240,1);}
+  to {background-color: rgba(210,210,210,1);} */
+}
