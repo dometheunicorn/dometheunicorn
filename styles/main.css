@@ -5,30 +5,78 @@ body {
 	/* background-position: center; */
 	background-blend-mode: overlay;
 	/* background-repeat: no-repeat; */
-	background-size: contain;
+	background-size: 25vw;
   /* background-size: 100vw 100vh; */
 	background-attachment: fixed;
-	font-size: 200%;
-	animation: mainanim 50s linear infinite;
+	font-size: 250%;
+	animation: mainanim 10s linear infinite;
+	margin: 25px;
+	overflow: auto;
+	font-family: 'VT323', sans-serif;
+}
+
+#main {
+	/* overflow: auto; */
 }
 
 h1 {
   color: purple;
   text-align: center;
+	font-family: 'Pacifico', sans-serif;
+}
+
+.twitter-dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.twitter-dropdown:hover .twitter-dropdown-content {
+  display: block;
+}
+
+.twitter-follow-button {
+  /* padding: 15px; */
+	position: absolute;
+  text-align: right;
+	top: -30px;
+	right: 0px;
+}
+
+/* ul {
+	list-style-position: inside;
+	margin: 5px;
+	padding: 5px;
+}
+
+li {
+  background: #cce5ff;
+  padding: 0px 10px;
+	margin: 10px 0px;
+} */
+
+a {
+	text-decoration: none;
+	color: purple;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: rgba(220, 75, 150,1);
 }
 
 
-.credits {
+#credits {
 	font-size: 50%;
 	text-align: right;
-	position: absolute;
+	position: fixed;
   bottom: 2px;
 	right: 2px;
 }
 
 @keyframes mainanim {
-	from {background-position: 0vw 0vh}
-	to {background-position: 100vw 100vh}
+	from {background-position: 0vw}
+	to {background-position: 25vw}
 
 	/* from {background-color: rgba(240,240,240,1);}
   to {background-color: rgba(210,210,210,1);} */
