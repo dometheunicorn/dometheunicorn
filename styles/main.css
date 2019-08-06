@@ -1,11 +1,11 @@
 body {
 	background-color: rgba(230,230,230,1);
 	color: purple;
-	background-image: url("../images/bg.png");
+	background-image: url("https://66.media.tumblr.com/297b361ce92b9e2746a1763eb72c90d4/tumblr_oqwlha3EBS1vqiq7ro2_1280.png");
 	/* background-position: center; */
 	background-blend-mode: overlay;
 	/* background-repeat: no-repeat; */
-	background-size: 80 80;
+	background-size: calc(1080px/4) calc(1920px/4);
 	/* background-size: 25vw; */
   /* background-size: 100vw 100vh; */
 	background-attachment: fixed;
